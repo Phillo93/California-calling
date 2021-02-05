@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "Larish Neue Semibold.woff2";
+    src: url("../fonts/Larish\ Neue\ Semibold.woff2") format("woff2"),
+         url("../fonts/LarishNeueSemibold.woff") format("woff");
+  }
+
+/* color: #fff  #000 */ 
+/* font-family: 'Larish Neue Semibold'; font-family: 'Work Sans', sans-serif; */
+
+body{
+  margin: 0;
+  background-color: black;
+}
+
+
+/******************************** Style Header ************************/
+header div:nth-of-type(1){ 
+ border-right: 1px solid grey;
+ padding-left:50%;
+ height: 200px;
+ width: 30px;
+ margin-bottom: 50px;
+ padding-left: 48%;
+}
+
+header{
+  color: #fff;
+  text-align: center;
+  font-family: "Larish Neue Semibold.woff2";
+  line-height: 7px;
+
+}
+
+header h1:nth-of-type(1){
+  font-size: 6em;
+}
+
+header h1:nth-of-type(2){
+  color: #000;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 1px;
+  font-size: 6em;
+}
+
+header p:nth-of-type(2){
+  font-size: 1em;
+}
+
+.logobutton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding: 0 10%;
+}
+
+.button{
+  border: 1px #fff solid;
+  padding: 20px 30px;
+}
+
+.button:hover{
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+/******************************** END Style Header *********************/
+
+/******************************** Style Section numbers ****************/
+
+.text1{
+  padding-top: 200px;
+  color: #fff;
+  font-family: "Larish Neue Semibold.woff2";
+  font-size: 6em;
+  padding-left: 10%;
+}
+
+.numbers{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  padding-left: 10%;
+}
+
+.numbers h1{
+  margin:0;
+  font-size: 6em;
+  font-family: "Larish Neue Semibold.woff2";
+}
+
+.numbers p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1em;
+}
+
+
+/******************************** END Section numbers ****************/
+
+/******************************** Style Section image ****************/
+.stuck{
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  height: 200vh;
+}
+
+.image{
+  width: 20%;
+  position: absolute;
+}
+
+.text:nth-of-type(1){
+    font-family: "Larish Neue Semibold.woff2";
+    margin: auto;
+    width:30%;
+    padding-top: 250px;
+}
+
+.text:nth-of-type(1) h1{
+  font-size: 4em;
+  line-height: 60px;
+  margin:0;
+}
+
+.text:nth-of-type(1) p{
+  font-size: 0.8em;
+  line-height: 25px;
+}
+
+
+.text:nth-of-type(2){
+  font-family: "Larish Neue Semibold.woff2";
+  margin: auto;
+  width: 35%;
+  padding-top: 580px;
+  padding-right: 10%;
+  line-height: 30px;
+}
+
+
+.image:nth-of-type(1){
+  top: -5vh;
+  right: 10%;
+}
+
+.image:nth-of-type(2){
+  top: 20vh;
+  left: 5%;
+}
+
+.image:nth-of-type(3){
+  top: 60vh;
+  right: 0px;
+}
+
+.image:nth-of-type(4){
+  top: 80vh;
+  left: 20%;
+}
+
+.image:nth-of-type(5){
+  top: 110vh;
+  right: 20%;
+}
+
+.image:nth-of-type(6){
+  top: 140vh;
+  left: 0px;
+}
+
+.image:nth-of-type(7){
+  width: 25%;
+  right: 32%;
+  bottom: -7vh;
+  z-index: 1;
+}
+
+/******************************** END Section image ****************/
+
+/******************************** style Section bear ****************/
+
+.bear{
+  background-color: #000;
+  color: #fff;
+  padding-top: 150px;
+  position: relative;
+  height: 140vh;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container div:nth-of-type(1) p{
+  padding-left: 20%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container div:nth-of-type(1) h1{
+  font-size: 4em;
+  margin:0;
+  padding-left: 20%;
+}
+
+.container div:nth-of-type(2) p{
+  width: 50%;
+  font-family: "Larish Neue Semibold.woff2";
+  padding-left: 35%;
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+.container div:nth-of-type(2) span{
+  padding-left: 35%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.bear img:nth-of-type(1){
+  position: absolute;
+  z-index: 1;
+  width: 55%;
+  top: 80vh;
+  left: 3%;
+}
+
+.bear img:nth-of-type(2){
+  position: absolute;
+  z-index: 2;
+  width: 35%;
+  top: 100vh;
+  left: 50%;
+}
+
+/******************************** END Section bear ****************/
+
+/******************************** Style Section bear2 *************/
+
+.bear2{
+  background-color: #fff;
+  color: #000;
+  padding-top: 150px;
+  position: relative;
+ 
+}
+
+.container2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container2 div:nth-of-type(1) p{
+  padding-left: 20%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container2 div:nth-of-type(1) h1{
+  font-size: 4em;
+  margin:0;
+  padding-left: 20%;
+}
+
+.container2 div:nth-of-type(2) p{
+  width: 50%;
+  font-family: "Larish Neue Semibold.woff2";
+  padding-left: 35%;
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+.container2 div:nth-of-type(2) span{
+  padding-left: 35%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+.bear2 img:nth-of-type(2){
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  left: 15%;
+  z-index: 2;
+}
+
+.bear2 img:nth-of-type(3){
+  position: absolute;
+  width: 50%;
+  top: 42.5%;
+  right: 15%;
+  z-index: 1;
+}
+
+
+
+/******************************** END Section bear2 *************/
