@@ -242,6 +242,7 @@ header p:nth-of-type(2){
   color: #000;
   padding-top: 150px;
   position: relative;
+  height:200vh;
  
 }
 
@@ -253,6 +254,7 @@ header p:nth-of-type(2){
 .container2 div:nth-of-type(1) p{
   padding-left: 20%;
   font-family: 'Work Sans', sans-serif;
+  padding-top:200px;
 }
 
 .container2 div:nth-of-type(1) h1{
@@ -266,7 +268,7 @@ header p:nth-of-type(2){
   font-family: "Larish Neue Semibold.woff2";
   padding-left: 35%;
   font-size: 2em;
-  padding-top: 30px;
+  padding-top:300px;
 }
 
 .container2 div:nth-of-type(2) span{
@@ -274,15 +276,18 @@ header p:nth-of-type(2){
   font-family: 'Work Sans', sans-serif;
 }
 
-
-
-
+.circle{
+  width: 30%;
+  position: absolute;
+  left: 70%;            /*side-scroll ?*/
+  top:-6%;
+}
 
 
 .bear2 img:nth-of-type(2){
   position: absolute;
   width: 25%;
-  top: 50%;
+  top: 62%;
   left: 15%;
   z-index: 2;
 }
@@ -290,11 +295,55 @@ header p:nth-of-type(2){
 .bear2 img:nth-of-type(3){
   position: absolute;
   width: 50%;
-  top: 42.5%;
+  padding-bottom:100px;
+  top: 55%;
   right: 15%;
   z-index: 1;
 }
 
-
-
 /******************************** END Section bear2 *************/
+
+/******************************** Style Footer ************+++++*/
+
+footer p:nth-of-type(1){
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 100px;
+  padding-left: 5%;
+}
+
+
+footer p:nth-of-type(2){
+  color:#fff;
+  font-family: 'Larish Neue Semibold';
+  font-size: 2.5em;
+  width:40%;
+  padding-left:5%;
+}
+
+footer .button{
+  width:5%;
+  color: #fff;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.s-media{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-left:5%;
+}
+
+.s-media p:nth-of-type(1){
+  width: 100%;
+  margin:0;
+  padding-top:30px;
+  font-size: 2em;
+}
+
+.s-media p:nth-of-type(2){
+  font-family:'Work Sans';
+}
+
+/******************************** END Style Footer ************+++++*/
